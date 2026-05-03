@@ -183,4 +183,34 @@ footer ul {
 }
 
 /*** Responsive */
+@media (max-width: 768px) {
+    nav ul li a {
+        padding: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+    }    
 
+    .bg-header {
+        height: 200px;
+    }
+
+    .bg-header h1 {
+        font-size: 1.5rem;
+    }
+
+    section>div {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    form {
+        flex-direction: column;
+        padding: 20px;
+    }
+           
+}                                        

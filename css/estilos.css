@@ -214,3 +214,13 @@ footer ul {
     }
            
 }                                        
+
+@media (max-width: 480px) {
+    .contacto>p {
+        text-align: center;
+    }
+
+    .contacto>p>span {
+        display: block;
+    } 
+}
